@@ -2,8 +2,7 @@
 
 L1 Engineer at Thales | Technical Support & Troubleshooting
 
-Currently exploring front-end web development (HTML, CSS, JavaScript) and building hands-on projects. Welcome to my GitHub!**.
-
+Currently studying applied cryptography and network security architecture to build secure products and solutions.##
 ---
 
 ## 💻 About Me
