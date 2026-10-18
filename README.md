@@ -1,6 +1,54 @@
 # Hi there 👋 I'm Rishikesh Mishra
 
-### 🛡️ L1 Engineer at Thales | Aspiring Cybersecurity & Cryptography Specialist
+<div align="center">
+  <svg width="100%" height="60" viewBox="0 0 850 60" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Red and Black metallic shine gradient -->
+      <linearGradient id="redBlackShine" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#0a0a0a" />
+        <stop offset="25%" stop-color="#ff1a1a" />
+        <stop offset="50%" stop-color="#ffffff">
+          <animate attributeName="offset" values="0; 1; 0" dur="3s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="75%" stop-color="#cc0000" />
+        <stop offset="100%" stop-color="#0a0a0a" />
+      </linearGradient>
+
+      <!-- Subtle red glow filter -->
+      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="2.5" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <style>
+        .marquee-text {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+          font-weight: 900;
+          font-size: 22px;
+          letter-spacing: 2px;
+          fill: url(#redBlackShine);
+          filter: url(#glow);
+        }
+      </style>
+    </defs>
+
+    <!-- Background card -->
+    <rect width="100%" height="60" rx="8" fill="#0d1117" stroke="#ff2222" stroke-width="1.2" stroke-opacity="0.5" />
+
+    <!-- Animated Marquee Track -->
+    <g class="marquee-text">
+      <text y="38">
+        ⚡ L1 ENGINEER @ THALES ⚡ L1 ENGINEER @ THALES ⚡ L1 ENGINEER @ THALES ⚡ L1 ENGINEER @ THALES
+        <animate attributeName="x" from="850" to="-750" dur="10s" repeatCount="indefinite" />
+      </text>
+    </g>
+  </svg>
+</div>
+
+<br>
 
 > Passionate about solving technical problems, securing systems, and building a career in enterprise cybersecurity products. Currently studying applied cryptography and network security architecture to design and support resilient solutions.
 
