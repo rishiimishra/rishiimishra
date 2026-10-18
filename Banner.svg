@@ -1,41 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="90" viewBox="0 0 1200 90">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="70" viewBox="0 0 850 70">
   <defs>
-    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0a0c10" />
-      <stop offset="50%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0a0c10" />
-    </linearGradient>
-
-    <linearGradient id="redShine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff2a2a" />
-      <stop offset="45%" stop-color="#ff6b6b" />
-      <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="55%" stop-color="#ff6b6b" />
-      <stop offset="100%" stop-color="#ff2a2a" />
-    </linearGradient>
-
-    <clipPath id="frameClip">
-      <rect x="0" y="0" width="1200" height="90" rx="10" />
-    </clipPath>
+    <style>
+      .bg { fill: #0d1117; stroke: #ff1a1a; stroke-width: 1.5; rx: 8px; }
+      .text-track {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 2px;
+        fill: #ff3333;
+        animation: marquee 12s linear infinite;
+      }
+      @keyframes marquee {
+        0% { transform: translateX(850px); }
+        100% { transform: translateX(-950px); }
+      }
+    </style>
   </defs>
 
-  <!-- Frame Background -->
-  <rect width="1200" height="90" rx="10" fill="url(#bgGlow)" stroke="#ff2222" stroke-width="2" />
-
-  <!-- Accent Lines -->
-  <line x1="0" y1="18" x2="1200" y2="18" stroke="#ff2222" stroke-opacity="0.3" stroke-width="1" />
-  <line x1="0" y1="72" x2="1200" y2="72" stroke="#ff2222" stroke-opacity="0.3" stroke-width="1" />
-
-  <!-- Marquee Container -->
-  <g clip-path="url(#frameClip)">
-    <text y="44" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="3" fill="url(#redShine)">
-      ⚡ CYBER SECURITY ENGINEER @ THALES 🛡️ L1 SUPPORT & TRIAGE ⚡ CYBER SECURITY ENGINEER @ THALES 🛡️ L1 SUPPORT & TRIAGE ⚡
-      <animate attributeName="x" from="1200" to="-1400" dur="14s" repeatCount="indefinite" />
-    </text>
-
-    <text y="62" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.5" fill="#ff7a7a">
-      CRYPTOGRAPHY • NETWORK SECURITY • PKI • INCIDENT RESOLUTION • SYSTEM HARDENING •
-      <animate attributeName="x" from="-1400" to="1200" dur="18s" repeatCount="indefinite" />
-    </text>
+  <rect width="100%" height="100%" class="bg" />
+  
+  <g class="text-track">
+    <text y="44">⚡ CYBER SECURITY ENGINEER @ THALES 🛡️ L1 SUPPORT & TRIAGE ⚡ CYBER SECURITY ENGINEER @ THALES 🛡️</text>
   </g>
 </svg>
