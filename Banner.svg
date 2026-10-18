@@ -1,26 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="70" viewBox="0 0 850 70">
-  <defs>
-    <style>
-      .bg { fill: #0d1117; stroke: #ff1a1a; stroke-width: 1.5; rx: 8px; }
-      .text-track {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-weight: 800;
-        font-size: 20px;
-        letter-spacing: 2px;
-        fill: #ff3333;
-        animation: marquee 12s linear infinite;
-      }
-      @keyframes marquee {
-        0% { transform: translateX(850px); }
-        100% { transform: translateX(-950px); }
-      }
-    </style>
-  </defs>
-
-  <rect width="100%" height="100%" class="bg" />
-  
-  <g class="text-track">
-    <text y="44">⚡ CYBER SECURITY ENGINEER @ THALES 🛡️ L1 SUPPORT & TRIAGE ⚡ CYBER SECURITY ENGINEER @ THALES 🛡️</text>
-  </g>
+  <rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#ff2222" stroke-width="2" />
+  <text y="44" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-weight="800" font-size="20" letter-spacing="2" fill="#ff3333">
+    ⚡ CYBER SECURITY ENGINEER @ THALES 🛡️ L1 SUPPORT & TRIAGE ⚡ CYBER SECURITY ENGINEER @ THALES 🛡️
+    <animate attributeName="x" from="850" to="-950" dur="14s" repeatCount="indefinite" />
+  </text>
 </svg>
-
