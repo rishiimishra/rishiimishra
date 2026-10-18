@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Rishikesh Mishra
 <p align="center">
-  <img src="./Code_Generated_Image.gif" alt="Cyber Security Engineer Banner" width="100%" />
+  <img src="./Code_Generated_Image (3).gif" alt="Cyber Security Engineer Banner" width="100%" />
 </p>
 
 > Passionate about solving technical problems, securing systems, and building a career in enterprise cybersecurity products. Currently studying applied cryptography and network security architecture to design and support resilient solutions.
