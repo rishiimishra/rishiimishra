@@ -1,29 +1,29 @@
 # Hi there 👋 I'm Rishikesh Mishra
 
-Welcome to my GitHub! I'm currently learning front-end development and exploring web technologies like **HTML, CSS, and JavaScript**. I also have experience in **Customer Service, Sales, and Technical IT Troubleshooting**.
+L1 Engineer at Thales | Technical Support & Troubleshooting
+
+Currently exploring front-end web development (HTML, CSS, JavaScript) and building hands-on projects. Welcome to my GitHub!**.
 
 ---
 
 ## 💻 About Me
 
-🌱 I'm learning web development and building projects as I grow.  
-💡 Passionate about solving problems and helping people through technology.  
-📌 Skills I’m working on:
-- HTML
-- CSS
-- JavaScript
-- IT helpdesk & troubleshooting
-- Customer service & technical support
+🌱 **I'm learning:** Cryptography, Network Security, and Core Cybersecurity Concepts  
+💼 **Current Role:** L1 Engineer at Thales  
+💡 Passionate about solving technical problems, securing systems, and building a career in cybersecurity products.
 
+📌 **Skills & Focus Areas:**
+
+- 🔐 **Cybersecurity & Core:** Cryptography Fundamentals, Network Security, System Hardening
+- 🛠️ **IT & Operations:** Incident Triage, IT Troubleshooting, Technical Support, Client Solutions
+- 🌐 **Web Technologies:** SAP, SERVICE NOW, ORACLE, JIRA, MS SUITE, WEB FRONT END, 
 ---
 
-## 🚀 Currently Learning
+## 🚀 Current Learning Roadmap
 
-I’m actively refining my skills in:
-- Responsive web design
-- DOM manipulation (JavaScript)
-- Basic UI/UX best practices
-- Version control with Git & GitHub
+- 🔐 **Cryptography:** Public Key Infrastructure (PKI), TLS/SSL, encryption algorithms
+- 🛡️ **Network Security:** Traffic analysis, firewall configuration, secure network models
+- 🔑 **IAM & Security Products:** Access control models, authentication protocols, and enterprise defenses
 
 ---
 
