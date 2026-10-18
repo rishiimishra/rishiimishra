@@ -1,7 +1,7 @@
 # Hi there 👋 I'm Rishikesh Mishra
 
 <p align="center">
-  <img src="Banner.svg" alt="L1 Engineer Marquee Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/rishiimishra/rishiimishra/main/Banner.svg?v=3" alt="Cyber Security Engineer Banner" width="100%" />
 </p>
 
 > Passionate about solving technical problems, securing systems, and building a career in enterprise cybersecurity products. Currently studying applied cryptography and network security architecture to design and support resilient solutions.
