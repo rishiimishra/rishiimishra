@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100%" height="60" viewBox="0 0 850 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Banner: Cyber Security Engineer at Thales">
+<svg width="1200" height="160" viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Cyber Security Engineer at Thales banner</title>
+  <desc id="bannerDesc">A red and black cyber security themed banner with skill and role text.</desc>
+
   <defs>
-    <linearGradient id="redBlackShine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0a0a0a" />
-      <stop offset="25%" stop-color="#ff1a1a" />
-      <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="75%" stop-color="#cc0000" />
-      <stop offset="100%" stop-color="#0a0a0a" />
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b0d12"/>
+      <stop offset="15%" stop-color="#15171d"/>
+      <stop offset="50%" stop-color="#1e232c"/>
+      <stop offset="85%" stop-color="#15171d"/>
+      <stop offset="100%" stop-color="#0b0d12"/>
     </linearGradient>
 
-    <style>
-      .marquee-text {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-weight: 900;
-        font-size: 22px;
-        letter-spacing: 2px;
-        fill: url(#redBlackShine);
-      }
-    </style>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4040"/>
+      <stop offset="25%" stop-color="#ff7a7a"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#ff7a7a"/>
+      <stop offset="100%" stop-color="#ff4040"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ff3b30" flood-opacity="0.7"/>
+    </filter>
   </defs>
 
-  <rect width="100%" height="60" rx="8" fill="#0d1117" stroke="#ff2222" stroke-width="1.2" stroke-opacity="0.5" />
+  <rect width="1200" height="160" rx="12" fill="url(#bgGlow)" stroke="#ff4040" stroke-width="1.5" opacity="0.95"/>
 
-  <g class="marquee-text">
-    <text x="20" y="38" aria-hidden="false">⚡ CYBER SECURITY ENGINEER @ THALES ⚡ CRYPTOGRAPHY & NETWORK SECURITY ⚡ LEARNING & UPGRADING SKILLS ⚡ DIGITAL NOMAD</text>
+  <g fill="none" stroke="none">
+    <path d="M0 26 H1200" stroke="#ff4040" stroke-opacity="0.35" stroke-width="1"/>
+    <path d="M0 134 H1200" stroke="#ff4040" stroke-opacity="0.35" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <text x="38" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="3" fill="url(#redGlow)">CYBER SECURITY ENGINEER</text>
+    <text x="38" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#f5f5f5">@ THALES</text>
+    <text x="38" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5" fill="#ff6a6a">CRYPTOGRAPHY • NETWORK SECURITY • CONTINUOUS LEARNING</text>
   </g>
 </svg>
