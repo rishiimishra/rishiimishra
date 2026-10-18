@@ -1,6 +1,7 @@
 # Hi there 👋 I'm Rishikesh Mishra
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rishiimishra/rishiimishra/main/Banner.svg?sanitize=true&cache=clear" alt="Cyber Security Engineer Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/rishiimishra/rishiimishra/main/Banner.svg" alt="Banner" width="100%" />
+</p>
 </p>
 ![Cyber Security Engineer Banner](./Banner.svg)
 
